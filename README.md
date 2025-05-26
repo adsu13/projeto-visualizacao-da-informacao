@@ -52,9 +52,5 @@ Projeto completo de análise de dados que utiliza web scraping para coletar info
 ## 🔧 Instalação Completa
 
 ```bash
-git clone https://github.com/seu-usuario/analise-futebol-mundial.git
-cd analise-futebol-mundial
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
+git clone https://github.com/adsu13/analise-futebol-mundial.git
 pip install -r requirements.txt
