@@ -65,5 +65,4 @@ plt.legend(
     fontsize=10
 )
 plt.tight_layout()
-plt.savefig('plot2.png', dpi=300, bbox_inches='tight', facecolor='white')
-plt.show()
+plt.savefig('../outputs/plot2.png', dpi=300, bbox_inches='tight', facecolor='white')
