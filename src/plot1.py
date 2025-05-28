@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
 plt.style.use('seaborn-v0_8')
 cores = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd']
 url = "https://www.vamofutebol.com/veja-todos-os-campeoes-mundiais-de-clubes-segundo-a-fifa/"
@@ -34,4 +35,5 @@ plt.grid(axis='x', linestyle='--', alpha=0.7)
 plt.gca().spines['top'].set_visible(False)
 plt.gca().spines['right'].set_visible(False)
 plt.tight_layout()
+os.makedirs('../outputs', exist_ok=True)
 plt.savefig('../outputs/plot1.png', dpi=300, bbox_inches='tight', transparent=False)   
