@@ -65,4 +65,4 @@ plt.legend(
     fontsize=10
 )
 plt.tight_layout()
-plt.savefig('C:/Users/User/Documents/GitHub/projeto-visualiza--o-da-informacao/outputs/plot2.png', dpi=300, bbox_inches='tight')
+plt.savefig('../outputs/plot2.png', dpi=300, bbox_inches='tight', facecolor='white')
