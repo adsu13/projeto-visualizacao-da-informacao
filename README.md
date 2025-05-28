@@ -25,7 +25,7 @@ Projeto completo de análise de dados que utiliza web scraping para coletar info
 - Marcadores temporais e grid de referência
 
 ### 🖥️ Dashboard Integrado
-![Dashboard](outputs/dashboard_final.png)
+![Dashboard](outputs/dashboard.png)
 - Composição profissional dos 3 gráficos em um único painel
 - Layout otimizado para melhor visualização
 - Elementos decorativos e informativos adicionais
